@@ -1,0 +1,6 @@
+body {
+}
+
+li > a > img {
+    width: 50%;
+}
