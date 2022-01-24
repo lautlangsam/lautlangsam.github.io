@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --kelp: #40433A;
+    --nobel: #15ce8134;
+    --manatee: #8a881aaf;
+    --grannySmith: #94A4A7;
+}
+
+html {
+    text-size-adjust: 100%;
+    color: var(--kelp);
+}
+
+i {
+display: inline-block;
+-webkit-transform:scale(2,1); /* Safari and Chrome */
+-moz-transform:scale(2,1); /* Firefox */
+-ms-transform:scale(2,1); /* IE 9 */
+-o-transform:scale(2,1); /* Opera */
+transform:scale(2,1); /* W3C */
+}
+
+
+body {
+    max-width: 500px;
+    padding: 1rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: IBMPlexMono;
+    flex-wrap: nowrap;
+}
+
+
+img {
+    border-top: 2px solid var(--manatee);
+    border-bottom: 2px solid var(--manatee);
+    max-width: 500px;
+    margin: auto;
+}
+
+figcaption {
+    width: 100%;
+}
+
+i, a {
+    flex: 1 
+}
+
+h1 {
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+.img-legend{
+    width: 100%;
+    font-weight: bold;
+    font-family: FiraCode;
+}
+
+a {
+    font-family: FiraCode;
+    font-weight: bold;
+    color: var(--kelp);
+    padding: 0 0.3rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+@font-face {
+    font-family: IBMPlexMono;
+    src: url("../assets/fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf");
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url("../assets/fonts/BebasNeue-Regular.ttf")
+}
+
+@font-face  {
+    font-family: FiraCode;
+    src: url("../assets/fonts/FiraCode-VariableFont_wght.ttf")
+}
